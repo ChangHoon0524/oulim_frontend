@@ -1,0 +1,38 @@
+/* 기본 스타일 */
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+
+/* 내용 묶음 */
+.l-main{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* 버튼 묶음 */
+.loginbutton{
+  width: 500px; 
+  margin: 20px; 
+  display: flex; 
+  flex-direction: column;
+  gap: 20px;
+}
+/* 로그인 버튼 */
+.c-button--lg{
+  width: 100%;
+  
+}
+/* 로그인 밑 알림 */
+.text{
+  background-color:aliceblue;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
